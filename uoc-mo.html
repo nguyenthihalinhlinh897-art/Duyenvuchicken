@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ước mơ – Vũ Thị Duyên</title>
+
+    <style>
+        /* ===== BODY ===== */
+        body {
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: 'Segoe UI', sans-serif;
+            color: #444;
+            background: linear-gradient(180deg, #ffc2d1 0%, #ff99ac 100%);
+        }
+
+        /* ===== MAIN WRAPPER ===== */
+        .main-wrapper {
+            position: relative;
+            width: 95%;
+            max-width: 850px;
+            padding: 40px;
+
+            display: flex;
+            flex-wrap: wrap;
+
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(15px);
+            border-radius: 40px;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 20px 45px rgba(255, 100, 130, 0.15);
+        }
+
+        /* ===== SIDE TITLE ===== */
+        .side-title {
+            position: absolute;
+            left: 10px;
+            bottom: 20px;
+
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+
+            font-size: 50px;
+            font-weight: 900;
+            color: rgba(216, 27, 96, 0.05);
+            user-select: none;
+        }
+
+        /* ===== CONTENT ===== */
+        .content-box {
+            width: 100%;
+            z-index: 2;
+        }
+
+        h1 {
+            margin: 5px 0 15px;
+            font-size: 32px;
+            color: #d81b60;
+        }
+
+        .tagline {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 6px 20px;
+
+            background: #ff4d6d;
+            color: #fff;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .dream-description {
+            margin-bottom: 25px;
+            padding: 20px;
+
+            background: #fff;
+            border-radius: 25px;
+            border-left: 5px solid #ff4d6d;
+            line-height: 1.6;
+        }
+
+        .dream-description b {
+            color: #d81b60;
+        }
+
+        /* ===== ASPIRATION GRID ===== */
+        .section-title {
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #d81b60;
+        }
+
+        .aspiration-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .uni-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            padding: 15px 20px;
+            background: #fff;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 194, 209, 0.5);
+
+            text-decoration: none;
+            color: #d81b60;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .uni-link:hover {
+            transform: translateY(-5px);
+            background: #fff5f7;
+            border-color: #ff4d6d;
+            box-shadow: 0 10px 20px rgba(255, 77, 109, 0.1);
+        }
+
+        .uni-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .order-circle {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: #ff4d6d;
+            color: #fff;
+            font-size: 12px;
+            flex-shrink: 0;
+        }
+
+        /* ===== BACK BUTTON ===== */
+        .back-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+
+            padding: 10px 25px;
+            text-decoration: none;
+            font-weight: bold;
+
+            color: #d81b60;
+            border: 2px solid #fff;
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+
+        .back-home:hover {
+            background: #fff;
+            color: #ff4d6d;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="main-wrapper">
+    <div class="side-title">MY FUTURE</div>
+
+    <div class="content-box">
+        <p class="tagline">🚀 Lộ trình sắp tới</p>
+        <h1>Ước mơ & Mục tiêu</h1>
+
+        <div class="dream-description">
+            Hiện tại, mình đang nỗ lực ôn luyện cho <b>khối A00 (Toán – Lý – Hóa)</b> để chinh phục cánh cửa đại học.
+            Sau 4 năm học tập tại thủ đô, mình dự định sẽ <b>trở về quê hương Quảng Ninh</b> để làm việc.
+            Và mục tiêu dài hạn nhất sau khi ra trường là được <b>"ăn bám" anh trai</b> càng lâu càng tốt! 😂
+        </div>
+
+        <p class="section-title">8 Nguyện vọng ưu tiên của mình ✨</p>
+
+        <div class="aspiration-grid">
+            <a href="https://neu.edu.vn/" target="_blank" class="uni-link">
+                <div class="uni-info">
+                    <span class="order-circle">1</span>
+                    <span>ĐH Kinh tế Quốc dân (NEU)</span>
+                </div>
+                <span>🎯</span>
+            </a>
+
+            <a href="https://www.ftu.edu.vn/" target="_blank" class="uni-link">
+                <div class="uni-info">
+                    <span class="order-circle">2</span>
+                    <span>Đại học Ngoại thương (FTU)</span>
+                </div>
+                <span>🔥</span>
+            </a>
+
+            <a href="https://ueb.vnu.edu.vn/" target="_blank" class="uni-link">
+                <div class="uni-info">
+                    <span class="order-circle">3</span>
+                    <span>ĐH Kinh tế – ĐHQG Hà Nội (UEB)</span>
+                </div>
+                <span>💎</span>
+            </a>
+
+            <a href="https://www.hust.edu.vn/" target="_blank" class="uni-link">
+                <div class="uni-info">
+                    <span class="order-circle">4</span>
+                    <span>ĐH Bách khoa Hà Nội (HUST)</span>
+                </div>
+                <span>⚙️</span>
+            </a>
+
+            <a href="https://tmu.edu.vn/" target="_blank" class="uni-link">
+                <div class="uni-info">
+                    <span class="order-circle">5</span>
+                    <span>ĐH Thương mại (TMU)</span>
+                </div>
+                <span>🛒</span>
+            </a>
+
+            <a href="https://aof.edu.vn/" target="_blank" class="uni-link">
+                <div class="uni-info">
+                    <span class="order-circle">6</span>
+                    <span>Học viện Tài chính (AOF)</span>
+                </div>
+                <span>💰</span>
+            </a>
+
+            <a href="https://ba.edu.vn/" target="_blank" class="uni-link">
+                <div class="uni-info">
+                    <span class="order-circle">7</span>
+                    <span>Học viện Ngân hàng (BA)</span>
+                </div>
+                <span>🏦</span>
+            </a>
+
+            <a href="https://www.hanu.vn/" target="_blank" class="uni-link">
+                <div class="uni-info">
+                    <span class="order-circle">8</span>
+                    <span>Đại học Hà Nội (HANU)</span>
+                </div>
+                <span>🌍</span>
+            </a>
+        </div>
+
+        <a href="index.html" class="back-home">← QUAY LẠI MENU</a>
+    </div>
+</div>
+
+</body>
+  </html>
